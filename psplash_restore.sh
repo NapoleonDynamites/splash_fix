@@ -30,7 +30,7 @@ for src in /rom/usr/share/psplash/*.png; do
         printf "[INFO] %s %s\n" "Found file:" $src
     if [ -e "$src" ]; then
         printf "[INFO] %s\n" "File exist, copy it to destination"
-        cp -f "$src" "/usr/share/psplash/"
+        cp -fP "$src" "/usr/share/psplash/"
     fi
 done
 
