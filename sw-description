@@ -3,7 +3,7 @@ software =
     version = "1.0";
     description = "psplash hotfix";
     
-	plc210rk = {
+	spk2xxm01 = {
         
         hardware-compatibility: [ "1.0" ];
 
