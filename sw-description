@@ -1,0 +1,17 @@
+software =
+{
+    version = "1.0";
+    description = "psplash hotfix";
+    
+	plc210rk = {
+        
+        hardware-compatibility: [ "1.0" ];
+
+        scripts: (
+            {
+                filename = "psplash_restore.sh";
+                type = "shellscript";
+            }
+        );
+    };
+}
